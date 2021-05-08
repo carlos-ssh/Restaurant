@@ -1,0 +1,31 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "A Restaurant Homepage.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-ssh/Restaurant.git"
+  },
+  "keywords": [
+    "Webpacker",
+    "JS",
+    "DOM"
+  ],
+  "author": "Carlos-SSH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos-ssh/Restaurant/issues"
+  },
+  "homepage": "https://github.com/carlos-ssh/Restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "open-ide": "^1.0.9"
+  }
+}
