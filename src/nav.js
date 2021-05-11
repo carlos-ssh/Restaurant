@@ -1,6 +1,10 @@
 let nav = () => {
     let nav = document.createElement('nav');
 
+    let logo = document.createElement('h4');
+    logo.innerHTML = 'Olive & Honey';
+    logo.id = 'logo';
+
     let home = document.createElement('button');
     home.innerHTML = 'Home';
     home.id = 'Home';
@@ -17,6 +21,7 @@ let nav = () => {
     contact.innerHTML = 'Contact';
     contact.id = 'contact';
 
+    nav.appendChild(logo);
     nav.appendChild(home);
     nav.appendChild(menu);
     nav.appendChild(about);
