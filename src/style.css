@@ -1,0 +1,11 @@
+body {
+    background-color:black;
+    min-height: 100vh;
+    position:relative;
+}
+
+button {
+    padding: 20px 10px;
+    color: white;
+    margin: 20px;
+}
