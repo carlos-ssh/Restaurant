@@ -7,3 +7,4 @@ let homeBtn = document.getElementById('home');
 homeBtn.onClick = () => {
     home();
 };
+
