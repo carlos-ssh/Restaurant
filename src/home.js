@@ -19,10 +19,10 @@ let home = () => {
     let header = document.createElement('header');
     let headline = document.createElement('h1');
     headline.innerHTML = 'Olive & Honey';
-    headline.id = 'headline';
-
     header.appendChild(headline);
     container.appendChild(header);
+    headline.id = 'headline';
+
 
     let tagline = document.createElement('p');
     tagline.innerHTML = 'Come and try our best fresh dishes!';
@@ -56,4 +56,4 @@ let home = () => {
     }
 }
 
-export default home
+export default home;

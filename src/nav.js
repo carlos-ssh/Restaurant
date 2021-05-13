@@ -28,6 +28,6 @@ let nav = () => {
     nav.appendChild(contact);
 
     return nav;
-}
+};
 
 export default nav;
