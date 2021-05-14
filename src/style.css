@@ -15,12 +15,12 @@ nav {
     background-color: rgb(255, 255, 255);
     margin-left: 0;
     text-align: center;
-    padding: 20px 0 0 0;
     opacity: 0.8;
+    height: 50px;
     width: 100vw;
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(243, 128, 75);
@@ -31,13 +31,13 @@ button {
     border: 0;
     border-radius: 5px;
     color: rgb(78, 77, 77);
-    display: inline-flex;
+    display: inline-block;
     font-weight: 800;
-    height: 50px;
+    height: 30px;
     margin: 0;
     transition-duration: 0.4s;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 10px;
 }
 
 footer {
@@ -75,15 +75,27 @@ footer {
     background-position: center;
 }
 
-.active {
-    background-color: rgba(0, 0, 0, 0.041);
-    color: rgb(243, 128, 75);
-    height: 100%;
+.about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.794)), url('https://images.pexels.com/photos/6269/dinner-meal-table-wine.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
 }
 
-.container {
-    border: 2px solid red;
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.561)), url('https://images.pexels.com/photos/3745525/pexels-photo-3745525.jpeg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
 }
+
+.active {
+    background-color: rgba(243, 128, 75, 0.513) ;
+    color: rgb(39, 38, 38);
+    height: 100%;
+    border-radius: 0;
+}
+
 
 #content {
     width: 100vw;
@@ -115,14 +127,16 @@ footer {
     text-align: center;
     color: beige;
     font-size: 30px;
+    margin: 50px 0 20px 0;
 }
 
-#txthome {
+#txthome, #email, #phone {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
     font-family: Helvetica, sans-serif;
     line-height: 30px;
+    margin-top: 50px;
 }
 
 #footertxt {
@@ -131,6 +145,6 @@ footer {
 
 button:hover {
     background-color: rgba(0, 0, 0, 0.041);
-    color: rgb(243, 128, 75);
-    border-radius: 0;
+    color: rgb(144, 144, 144);
+    height: 100%;
 }

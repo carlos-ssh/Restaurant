@@ -20,7 +20,6 @@ let home = () => {
 
     let headline = document.createElement('h1');
     headline.innerHTML = 'Olive & Honey';
-
     headline.id = 'headline';
 
 

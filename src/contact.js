@@ -10,16 +10,22 @@ let contact = () => {
 
   let headline = document.createElement('h1');
   headline.innerHTML = 'Send us a message';
+  headline.id = 'headline';
 
   let tagline = document.createElement('p');
   tagline.innerHTML = "It would be great to hear something for you!";
+  tagline.id = 'tagline';
 
   let phone = document.createElement('p');
   phone.innerHTML = 'Phone: +52 (442) 790 8959';
+  phone.id = 'phone';
 
   let email = document.createElement('p');
   email.innerHTML = 'Mail: hello@carlosrobles.tech';
+  email.id = 'email';
 
+
+  content.appendChild(container);
   container.appendChild(headline);
   container.appendChild(tagline);
   container.appendChild(phone);
@@ -27,7 +33,7 @@ let contact = () => {
 
   let body = document.querySelector('body');
   let footer = document.querySelector('footer');
-  body.insertBefore(container, footer);
+  body.insertBefore(container);
 
 }
 
