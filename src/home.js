@@ -43,15 +43,11 @@ let home = () => {
     "<strong>Stay Safe!</strong>";
     txtHome.id = 'txthome';
 
-    let reservations = document.createElement('a');
-    reservations.innerHTML = "<a href='#'> Reserve Now </a>";
-    reservations.id = 'reservations';
     
     content.appendChild(container);
     container.appendChild(header);
     container.appendChild(tagline);
     container.appendChild(txtHome);
-    container.appendChild(reservations);
     header.appendChild(headline);
     
     if (!document.querySelector('footer')) {

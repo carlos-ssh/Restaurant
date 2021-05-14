@@ -1,4 +1,4 @@
-# restaurant
+# Restaurant Web Page.
 
 DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!.
 
@@ -25,9 +25,6 @@ npm run build-dev
 ## Running
 
 ```sh
-node dist/bundle.js
+node dist/main.js
 ```
 
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
