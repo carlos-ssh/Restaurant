@@ -2,32 +2,32 @@ import home from './home';
 import menu from './menu';
 import about from './about';
 import contact from './contact';
-import clean from './clean';
+import clear from './clear';
 import './reset.css';
 import './style.css';
 
 home();
 
 let homeBtn = document.getElementById('home');
-homeBtn.onClick = () => {
-    clean();
+homeBtn.onclick = () => {
+    clear();
     home();
 };
 
 let menuBtn = document.getElementById('menu');
-menuBtn.onClick = () => {
-    clean();
+menuBtn.onclick = () => {
+    clear();
     menu();
 };
 
 let aboutBtn = document.getElementById('about');
-aboutBtn.onClick = () => {
-    clean();
+aboutBtn.onclick = () => {
+    clear();
     about();
-}
+};
 
 let contactBtn = document.getElementById('contact');
-contactBtn.onClick = () => {
-    clean();
+contactBtn.onclick = () => {
+    clear();
     contact();
-}
+};

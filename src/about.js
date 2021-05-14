@@ -14,7 +14,7 @@ let about = () => {
   tagline.classList.add('text');
 
   headline.innerHTML = 'Meet our History Olive & Honey';
-  tagline.innerHTML = 'Our early time was making artisain cheese, wine and craft beer.'
+  tagline.innerHTML = 'Our early time was making artisan cheese, wine and craft beer.'
 
 
   container.appendChild(headline);
@@ -23,6 +23,6 @@ let about = () => {
   let footer = document.querySelector('footer');
   body.insertBefore(container, footer);
 
-};
+}
 
 export default about;

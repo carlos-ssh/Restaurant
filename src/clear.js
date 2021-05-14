@@ -1,4 +1,4 @@
-let clean = () => {
+let clear = () => {
   let content = document.getElementById('content');
   let container = document.getElementsByClassName('container')[0];
 
@@ -9,6 +9,6 @@ let clean = () => {
   for (let i = 0; i < buttons.length; i++) {
     buttons[i].className = "";
   }
-};
+}
 
-export default clean;
+export default clear;

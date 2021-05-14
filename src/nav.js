@@ -21,6 +21,7 @@ let nav = () => {
     contact.innerHTML = 'Contact';
     contact.id = 'contact';
 
+
     nav.appendChild(logo);
     nav.appendChild(home);
     nav.appendChild(menu);

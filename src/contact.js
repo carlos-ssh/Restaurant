@@ -12,7 +12,7 @@ let contact = () => {
   headline.innerHTML = 'Send us a message';
 
   let tagline = document.createElement('p');
-  tagline.innerHTML = 'It would be great to hear something for you!';
+  tagline.innerHTML = "It would be great to hear something for you!";
 
   let phone = document.createElement('p');
   phone.innerHTML = 'Phone: +52 (442) 790 8959';
@@ -23,7 +23,7 @@ let contact = () => {
   container.appendChild(headline);
   container.appendChild(tagline);
   container.appendChild(phone);
-  container.appendChild(mail);
+  container.appendChild(email);
 
   let body = document.querySelector('body');
   let footer = document.querySelector('footer');

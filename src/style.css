@@ -1,5 +1,4 @@
 @font-face {
-    font-family: 'Bungee Shade', cursive;
     font-family: 'Tulpen One', cursive;
     src: url(https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Tulpen+One&display=swap);
 }
@@ -14,12 +13,17 @@ body {
 
 nav {
     background-color: rgb(255, 255, 255);
-    display: block;
     margin-left: 0;
     text-align: center;
     padding: 20px 0 0 0;
     opacity: 0.8;
     width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(243, 128, 75);
 }
 
 button {
@@ -48,7 +52,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    font-family: "Helvetica";
+    font-family: Helvetica, fantasy;
     text-align: center;
     padding: 0 1em;
     box-sizing: border-box;
@@ -61,8 +65,33 @@ footer {
     background-size:cover;
     margin: -20px 0 0 0;
     background-position: center 20%;
-    background-size: cover;
     height: 100vh;
+}
+
+.menu {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/4639391/pexels-photo-4639391.jpeg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.041);
+    color: rgb(243, 128, 75);
+    height: 100%;
+}
+
+.container {
+    border: 2px solid red;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 #logo {
@@ -82,7 +111,7 @@ footer {
     margin-top: 20px;
 }
 
-#tagline {
+#tagline, #headertxt {
     text-align: center;
     color: beige;
     font-size: 30px;

@@ -17,10 +17,10 @@ let home = () => {
     container.classList.add('container');
 
     let header = document.createElement('header');
+
     let headline = document.createElement('h1');
     headline.innerHTML = 'Olive & Honey';
-    header.appendChild(headline);
-    container.appendChild(header);
+
     headline.id = 'headline';
 
 
@@ -45,11 +45,15 @@ let home = () => {
     txtHome.id = 'txthome';
 
     let reservations = document.createElement('a');
-    reservations.innerHTML = "<a href='./contact'> Reserve Now </a>";
+    reservations.innerHTML = "<a href='#'> Reserve Now </a>";
     reservations.id = 'reservations';
     
     content.appendChild(container);
-    header.appendChild(txtHome);
+    container.appendChild(header);
+    container.appendChild(tagline);
+    container.appendChild(txtHome);
+    container.appendChild(reservations);
+    header.appendChild(headline);
     
     if (!document.querySelector('footer')) {
         footer();
