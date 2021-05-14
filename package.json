@@ -1,10 +1,10 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
-  "description": "",
+  "description": "DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website.",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": "CARLOS-SSH",
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
@@ -14,7 +14,8 @@
   "dependencies": {
     "bootstrap": "^5.0.0",
     "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
